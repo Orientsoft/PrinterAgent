@@ -21,8 +21,12 @@ namespace PrinterAgent
     {
         public static string decode(string encodedString, string key)
         {
+            encodedString = encodedString.Replace('-', '+');
+            encodedString = encodedString.Replace('*', '/');
+            encodedString = encodedString.Replace('^', '=');
+
             byte[] keyBytes = Encoding.Unicode.GetBytes(key);
-            byte[] encodedBytes = Convert.FromBase64String(encodedString);
+            byte[] encodedBytes = Convert.FromBase64String(encodedString.Trim('\0'));
 
             for (int i = 0; i < encodedBytes.Length; i += 2)
             {
@@ -32,7 +36,8 @@ namespace PrinterAgent
                 }
             }
 
-            return Encoding.Unicode.GetString(encodedBytes).TrimEnd('\0');
+            string decodedString = Encoding.Unicode.GetString(encodedBytes).TrimEnd('\0');
+            return decodedString;
         }
 
         public static string encode(string plainString, string key)
@@ -48,7 +53,12 @@ namespace PrinterAgent
                 }
             }
 
-            return Convert.ToBase64String(plainBytes);
+            string encodedString = Convert.ToBase64String(plainBytes);
+            encodedString.Replace('+', '-');
+            encodedString.Replace('/', '*');
+            encodedString.Replace('=', '^');
+
+            return encodedString;
         }
     }
 
@@ -112,36 +122,63 @@ namespace PrinterAgent
                     ConfigurationManager.AppSettings["TemplatePath"] +
                     template + "-" + templateVersion +
                     ConfigurationManager.AppSettings["TemplateExtension"];
-
-                Report.Clear();
-                // Report.LoadFromURL(templateUrl);
-                Report.LoadFromFile("D:\\project\\PrinterService\\grf\\IC卡购金额发票.grf");
-
-                xmlData = Crypto.decode(xmlData, ConfigurationManager.AppSettings["CryptoKeyseed"]);
-
-                // xmlData = "<xml><row><流水编号>54321</流水编号><开票日期>2017-4-12</开票日期><用户类型>帅锅</用户类型><用户名称>王碧林</用户名称><用户编码>12345</用户编码><地址>通美大厦</地址></row></xml>";
-                Report.LoadDataFromXML(xmlData);
-
-                // do work
-                switch (operation)
+                
+                try
                 {
-                    case "print":
-                        Report.Print(true);
-                        jsonp = JsonpHandler.handle(ctx.Request, "{\"result\": \"OK\"}");
-                        ctx.Response.StatusCode = 200;
-                        break;
-
-                    case "preview":
-                        Report.PrintPreview(true);
-                        jsonp = JsonpHandler.handle(ctx.Request, "{\"result\": \"OK\"}");
-                        ctx.Response.StatusCode = 200;
-                        break;
-
-                    default:
-                        jsonp = JsonpHandler.handle(ctx.Request, "{\"error\":\"Unknown operation\"}");
-                        ctx.Response.StatusCode = 404;
-                        break;
+                    Report.Clear();
+                    Report.LoadFromURL(templateUrl);
+                    // Report.LoadFromFile("D:\\project\\PrinterService\\grf\\IC卡购金额发票.grf");
+                    // Report.LoadFromFile("D:\\project\\PrinterAgent\\romulan_grf\\GCSF3.grf");
                 }
+                catch (Exception e)
+                {
+                    jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
+                    ctx.Response.StatusCode = 500;
+                }
+                
+                try
+                {
+                    xmlData = Crypto.decode(xmlData, ConfigurationManager.AppSettings["CryptoKeyseed"]);
+                    // xmlData = "<xml><row><流水编号>54321</流水编号><开票日期>2017-4-12</开票日期><用户类型>帅锅</用户类型><用户名称>王碧林</用户名称><用户编码>12345</用户编码><地址>通美大厦</地址></row></xml>";
+                    // xmlData = "<xml><master><XMSFJL_XMID>12345</XMSFJL_XMID></master><row><SFJLMX_ShoufeiXiangmu>a</SFJLMX_ShoufeiXiangmu></row><row><SFJLMX_ShoufeiXiangmu>b</SFJLMX_ShoufeiXiangmu></row></xml>";
+                    Report.LoadDataFromXML(xmlData);
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.Message);
+                    jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
+                    ctx.Response.StatusCode = 500;
+                }
+
+                try
+                {
+                    // do work
+                    switch (operation)
+                    {
+                        case "print":
+                            Report.Print(true);
+                            jsonp = JsonpHandler.handle(ctx.Request, "{\"result\": \"OK\"}");
+                            ctx.Response.StatusCode = 200;
+                            break;
+
+                        case "preview":
+                            Report.PrintPreview(true);
+                            jsonp = JsonpHandler.handle(ctx.Request, "{\"result\": \"OK\"}");
+                            ctx.Response.StatusCode = 200;
+                            break;
+
+                        default:
+                            jsonp = JsonpHandler.handle(ctx.Request, "{\"error\":\"Unknown operation\"}");
+                            ctx.Response.StatusCode = 404;
+                            break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
+                    ctx.Response.StatusCode = 500;
+                }
+                
 
                 // write response        
                 using (StreamWriter writer = new StreamWriter(ctx.Response.OutputStream))

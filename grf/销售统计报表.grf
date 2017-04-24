@@ -1,0 +1,848 @@
+Object Report
+	Version='5.5.0.0'
+	Title='Grid++Report'
+	Object Font
+		Name='宋体'
+		Size=90000,0
+		Weight=400
+		Charset=134
+	End
+	Object Printer
+		Size=8
+		Width=29.7
+		Height=42
+		Oriention=Landscape
+	End
+	Object ImageList
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00E0FF00E6FF00E6FF00E6FF00E6FF00E0FF00
+BFFF00C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00060000060000060000060000060000
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00060000E6FF00E6FF00E6FF00E6FF00E6FF00
+060000E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00060000E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00060000BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF008EF00006000000000000000006005FFEFF0BFCFF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00E0FF00E6FF00E6FF00E6FF00E6FF00E0FF00
+BFFF00C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00E0FF002F00000600002F0000E0FF00
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF008EF00006000000000000000006005FFEFF0BFCFF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00060000E6FF00E6FF00E6FF00E6FF00E0FF00
+060000C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00060000060000060000060000060000
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00060000060000E6FF00E6FF00E6FF00060000
+060000E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00060000E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00060000BFFF008EF00006000000000000000006005FFEFF0BFCFF00060000E6FF00E6FF00E6FF00E6FF00E6FF00
+060000E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00060000E6FF00E6FF00E6FF00060000
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+	End
+	Object DetailGrid
+		Object Recordset
+			Items Field
+				Item
+					Name='period'
+				End
+				Item
+					Name='民用气量'
+				End
+				Item
+					Name='民用金额'
+				End
+				Item
+					Name='前60方民用气量'
+				End
+				Item
+					Name='前60方民用金额'
+				End
+				Item
+					Name='低保户气量'
+				End
+				Item
+					Name='低保户金额'
+				End
+				Item
+					Name='商业1气量'
+				End
+				Item
+					Name='商业1金额'
+				End
+				Item
+					Name='商业2气量'
+				End
+				Item
+					Name='商业2金额'
+				End
+				Item
+					Name='合计气量'
+				End
+				Item
+					Name='合计金额'
+				End
+				Item
+					Name='商业37开气量'
+				End
+				Item
+					Name='商业37开金额'
+				End
+				Item
+					Name='商业46开气量'
+				End
+				Item
+					Name='商业46开金额'
+				End
+				Item
+					Name='前30方民用气量'
+				End
+				Item
+					Name='前30方民用金额'
+				End
+				Item
+					Name='前40方民用气量'
+				End
+				Item
+					Name='前40方民用金额'
+				End
+				Item
+					Name='Field1'
+				End
+			End
+		End
+		Items Column
+			Item
+				Name='Column1'
+				Width=1.69333
+			End
+			Item
+				Name='C民用金额'
+				Width=2.38125
+			End
+			Item
+				Name='C民用气量'
+				Width=2.88396
+			End
+			Item
+				Name='C前60方民用气量'
+				Width=2.40771
+			End
+			Item
+				Name='C前60方民用金额'
+				Width=2.40771
+			End
+			Item
+				Name='C前40方民用气量'
+				Width=2.40771
+			End
+			Item
+				Name='C前40方民用金额'
+				Width=2.38125
+			End
+			Item
+				Name='C前30方民用气量'
+				Width=3.01625
+			End
+			Item
+				Name='C前30方民用金额'
+				Width=3.04271
+			End
+			Item
+				Name='C商业1气量'
+				Width=2.40771
+			End
+			Item
+				Name='C商业1金额'
+				Width=2.19604
+			End
+			Item
+				Name='C商业2气量'
+				Width=1.98438
+			End
+			Item
+				Name='CC商业2金额'
+				Width=1.98438
+			End
+			Item
+				Name='C商业37开气量'
+				Width=2.83104
+			End
+			Item
+				Name='C商业37开金额'
+				Width=2.96333
+			End
+			Item
+				Name='合计气量'
+				Width=1.69333
+			End
+			Item
+				Name='合计金额'
+				Width=1.69333
+			End
+			Item
+				Name='C低保户金额'
+				Width=1.69333
+			End
+			Item
+				Name='商业46开气量'
+				Width=2.40771
+			End
+			Item
+				Name='C商业46开金额'
+				Width=2.01083
+			End
+			Item
+				Name='C低保户气量'
+				Width=2.59292
+			End
+		End
+		Object ColumnContent
+			Height=0.608542
+			Items ColumnContentCell
+				Item
+					Column='Column1'
+					DataField='period'
+				End
+				Item
+					Column='C民用金额'
+					TextAlign=MiddleCenter
+					DataField='民用金额'
+				End
+				Item
+					Column='C民用气量'
+					TextAlign=MiddleCenter
+					DataField='民用气量'
+				End
+				Item
+					Column='C前60方民用气量'
+					TextAlign=MiddleCenter
+					DataField='前60方民用气量'
+				End
+				Item
+					Column='C前60方民用金额'
+					TextAlign=MiddleCenter
+					DataField='前60方民用金额'
+				End
+				Item
+					Column='C前40方民用气量'
+					TextAlign=MiddleCenter
+					DataField='前40方民用气量'
+				End
+				Item
+					Column='C前40方民用金额'
+					TextAlign=MiddleCenter
+					DataField='前40方民用金额'
+				End
+				Item
+					Column='C前30方民用气量'
+					TextAlign=MiddleCenter
+					DataField='前30方民用气量'
+				End
+				Item
+					Column='C前30方民用金额'
+					TextAlign=MiddleCenter
+					DataField='前30方民用金额'
+				End
+				Item
+					Column='C商业1气量'
+					TextAlign=MiddleCenter
+					DataField='商业1气量'
+				End
+				Item
+					Column='C商业1金额'
+					TextAlign=MiddleCenter
+					DataField='商业1金额'
+				End
+				Item
+					Column='C商业2气量'
+					TextAlign=MiddleCenter
+					DataField='商业2气量'
+				End
+				Item
+					Column='CC商业2金额'
+					TextAlign=MiddleCenter
+					DataField='商业2金额'
+				End
+				Item
+					Column='C商业37开气量'
+					TextAlign=MiddleCenter
+					DataField='商业37开气量'
+				End
+				Item
+					Column='C商业37开金额'
+					TextAlign=MiddleCenter
+					DataField='商业37开金额'
+				End
+				Item
+					Column='合计气量'
+					DataField='合计气量'
+				End
+				Item
+					Column='合计金额'
+					DataField='合计金额'
+				End
+				Item
+					Column='C低保户金额'
+					DataField='低保户金额'
+				End
+				Item
+					Column='商业46开气量'
+					DataField='商业46开气量'
+				End
+				Item
+					Column='C商业46开金额'
+					DataField='商业46开金额'
+				End
+				Item
+					Column='C低保户气量'
+					DataField='低保户气量'
+				End
+			End
+		End
+		Object ColumnTitle
+			BackColor=0x00ecebd5
+			Height=1.00542
+			RepeatStyle=OnPage
+			Items ColumnTitleCell
+				Item
+					GroupTitle=F
+					Column='Column1'
+					Text='月份'
+				End
+				Item
+					GroupTitle=T
+					Name='民用'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C民用气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C民用金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					TextAlign=MiddleCenter
+					Text='民用'
+				End
+				Item
+					GroupTitle=T
+					Name='集体'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C前60方民用气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C前60方民用金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					TextAlign=MiddleCenter
+					Text='前60方民用'
+				End
+				Item
+					GroupTitle=T
+					Name='商业'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C前40方民用气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C前40方民用金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					Text='前40方民用'
+				End
+				Item
+					GroupTitle=T
+					Name='工业'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C前30方民用气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C前30方民用金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					Text='前30方民用'
+				End
+				Item
+					GroupTitle=T
+					Name='川佛'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C商业1气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C商业1金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					Text='商业1'
+				End
+				Item
+					GroupTitle=T
+					Name='低保户'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C商业2气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='CC商业2金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					Text='商业2'
+				End
+				Item
+					GroupTitle=T
+					Name='合计'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C商业37开气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C商业37开金额'
+							TextAlign=MiddleCenter
+							Text='金额'
+						End
+					End
+					Text='商业37开'
+				End
+				Item
+					GroupTitle=T
+					Name='Column23'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='商业46开气量'
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C商业46开金额'
+							Text='金额'
+						End
+					End
+					Text='商业46开'
+				End
+				Item
+					GroupTitle=T
+					Name='Column24'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='C低保户气量'
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='C低保户金额'
+							Text='金额'
+						End
+					End
+					Text='低保'
+				End
+				Item
+					GroupTitle=T
+					Name='shangye'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='合计气量'
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='合计金额'
+							Text='金额'
+						End
+					End
+					Text='合计'
+				End
+			End
+		End
+	End
+	Items Parameter
+		Item
+			Name='报表头'
+		End
+	End
+	Items Section
+		Item
+			Type=PageHeader
+			Height=1.00542
+			Items Control
+				Item
+					Type=Line
+					Name='Line1'
+					Top=0.79375
+					Width=16.1925
+					PenWidth=2
+				End
+				Item
+					Type=MemoBox
+					Name='MemoBox3'
+					Object Font
+						Name='楷体_GB2312'
+						Size=120000,0
+						Bold=T
+						Charset=134
+					End
+					Anchor=[Top|Right]
+					Left=23.1775
+					Top=0.211667
+					Width=13.7054
+					Height=0.47625
+				End
+			End
+		End
+		Item
+			Type=PageFooter
+			Height=1.5875
+			Items Control
+				Item
+					Type=MemoBox
+					Name='MemoBox1'
+					Left=3.78354
+					Width=4.81542
+					Height=0.396875
+					TextAlign=MiddleRight
+					Text='共[#SystemVar(PageCount)#]页 第[#SystemVar(PageNumber)#]页'
+				End
+			End
+		End
+		Item
+			Type=ReportHeader
+			Height=2.19604
+			Items Control
+				Item
+					Type=StaticBox
+					Name='StaticBox1'
+					Object Font
+						Name='宋体'
+						Size=150000,0
+						Bold=T
+						Charset=134
+					End
+					Center=Horizontal
+					Left=15.3988
+					Top=0.211667
+					Width=6.19125
+					Height=0.582083
+					TextAlign=MiddleCenter
+					Text='销售统计报表 '
+				End
+				Item
+					Type=MemoBox
+					Name='MemoBox4'
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					Left=0.211667
+					Top=1.40229
+					Width=14.3933
+					Height=0.608542
+					CanGrow=T
+					Text='[#报表头#]'
+				End
+				Item
+					Type=StaticBox
+					Name='StaticBox2'
+					Left=11.0067
+					Top=1.19063
+					Width=5.79438
+					Height=0.396875
+					Text='气量单位：M3    金额单位：元'
+				End
+			End
+		End
+		Item
+			Type=ReportFooter
+			Height=2.59292
+			Object Font
+				Name='宋体'
+				Size=90000,0
+				Bold=T
+				Charset=134
+			End
+			Items Control
+				Item
+					Type=SummaryBox
+					Name='SummaryBox1'
+					AlignColumn='C民用气量'
+					Left=1.69333
+					Top=0.47625
+					Width=2.91042
+					Height=0.396875
+					DataField='民用气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox2'
+					AlignColumn='C民用金额'
+					Left=4.57729
+					Top=0.396875
+					Width=2.40771
+					Height=0.582083
+					DataField='民用金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox3'
+					AlignColumn='C前60方民用气量'
+					Left=6.95854
+					Top=0.396875
+					Width=2.43417
+					Height=0.582083
+					DataField='前60方民用气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox4'
+					AlignColumn='C前60方民用金额'
+					Left=9.36625
+					Top=0.396875
+					Width=2.43417
+					Height=0.582083
+					DataField='前60方民用金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox5'
+					AlignColumn='C前40方民用气量'
+					Left=11.774
+					Top=0.396875
+					Width=2.43417
+					Height=0.582083
+					DataField='前40方民用气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox6'
+					AlignColumn='C前40方民用金额'
+					Left=14.1817
+					Top=0.396875
+					Width=2.40771
+					Height=0.582083
+					DataField='前40方民用金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox7'
+					AlignColumn='C前30方民用气量'
+					Left=16.5629
+					Top=0.396875
+					Width=3.04271
+					Height=0.582083
+					DataField='前30方民用气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox8'
+					AlignColumn='C前30方民用金额'
+					Left=19.5792
+					Top=0.396875
+					Width=3.06917
+					Height=0.582083
+					DataField='前30方民用金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox9'
+					AlignColumn='C商业1气量'
+					Left=22.6219
+					Top=0.423333
+					Width=2.43417
+					Height=0.582083
+					DataField='商业1气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox10'
+					AlignColumn='C商业1金额'
+					Left=25.0296
+					Top=0.423333
+					Width=2.2225
+					Height=0.582083
+					DataField='商业1金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox11'
+					AlignColumn='C商业2气量'
+					Left=27.2256
+					Top=0.423333
+					Width=2.01083
+					Height=0.582083
+					DataField='商业2气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox12'
+					AlignColumn='CC商业2金额'
+					Left=29.21
+					Top=0.423333
+					Width=2.01083
+					Height=0.582083
+					DataField='商业2金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox13'
+					AlignColumn='合计气量'
+					Left=45.6935
+					Top=0.423333
+					Width=1.71979
+					Height=0.582083
+					DataField='合计气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox14'
+					AlignColumn='合计金额'
+					Left=47.3869
+					Top=0.423333
+					Width=1.71979
+					Height=0.582083
+					DataField='合计金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox15'
+					AlignColumn='C商业37开气量'
+					Left=31.1944
+					Top=0.449792
+					Width=2.8575
+					Height=0.582083
+					DataField='商业37开气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox16'
+					AlignColumn='C商业37开金额'
+					Left=34.0254
+					Top=0.449792
+					Width=2.98979
+					Height=0.582083
+					DataField='商业37开金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox17'
+					AlignColumn='商业46开气量'
+					Left=36.9888
+					Top=0.449792
+					Width=2.43417
+					Height=0.582083
+					DataField='商业46开气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox18'
+					AlignColumn='C商业46开金额'
+					Left=39.3965
+					Top=0.449792
+					Width=2.03729
+					Height=0.582083
+					DataField='商业46开金额'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox19'
+					AlignColumn='C低保户气量'
+					Left=41.4073
+					Top=0.47625
+					Width=2.61938
+					Height=0.396875
+					DataField='低保户气量'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox20'
+					AlignColumn='C低保户金额'
+					Left=44.0002
+					Top=0.396875
+					Width=1.71979
+					Height=0.582083
+					DataField='低保户金额'
+				End
+			End
+		End
+	End
+End
+ 

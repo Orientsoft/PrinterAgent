@@ -1,0 +1,53 @@
+gc:
+[#{SKDWJC}#]工程费用收费收据
+numfph：[#{XMSFJL_FPH}#]
+工程编号:[#{XMSFJL_XMID}#]
+交易流水号:[#{XMSFJL_JYLSH}#]
+开票日期:[#{XMSFJL_FP_RQ}#]
+工程名称:[#{XMSFJL_XMMC}#]
+科目 SFJLMX_ShoufeiXiangmu
+单位SFJLMX_Danwei
+单价SFJLMX_Danjia
+数量SFJLMX_SL
+金额SFJLMX_Jine
+金额小写:￥[#{XMSFJL_Jine}#]元
+金额大写:[#{XMSFJL_JineDX}#]
+收款单位:[#{SKDW}#]
+收款人:[#{XMSFJL_ShoufeiRenName}#]([#{XMSFJL_ShoufeiRen}#])
+收款日期:[#{XMSFJL_ShoufeiRiqi}#]
+
+
+qf:
+开票日期:[#CBJL_FapiaoRiqi#]
+行业分类:[#{HYFL}#]
+用户编号:[#CBJL_YQDZID#]
+交易流水号:[#CBJL_JYLSH#]
+本年累计:[#CBJL_LJYQL_BN#]
+用户名称:[#CBJL_HZMC#]
+用气地址:[#CBJL_YQDZ_MS#] 
+
+抄表日期:[#CBJL_SJCBRQ#]
+起止读数:[#CBJL_SCBD#]～[#CBJL_BCBD#]
+调节气量:[#CBJL_TJYQL#]
+
+类型：[#CBJL_JGLX_MS#]
+气量：[#CBJL_BCYQL#]
+单价：[#CBJL_DJ#]
+气费：[#CBJL_YJE#]
+
+总用气量:[#CBJL_BCYQL_SUM#] 本次气费:[#CBJL_YJE_SUM#] 违约金:[#CBJL_SS_ZNJ#] 上次余额:[#CBJL_Yujiao#] 当前余额:[#CBJL_Jiecun#] 
+
+金额小写:￥[#CBJL_SJJFE#]元 金额大写:[#SJJFE_DX#]
+收款单位:[#{SKDW}#] 收款人:[#CSR_NAME#]([#CBJL_Shoufeiyuan#]) 交费日期:[#CBJL_SJJFRQ#]
+
+yc：
+开票日期:[#CBJL_FapiaoRiqi#]
+行业分类:[#{HYFL}#]
+用户编号:[#CBJL_YQDZID#]
+交易流水号:[#CBJL_JYLSH#]
+用户名称:[#CBJL_HZMC#]
+用气地址:[#CBJL_YQDZ_MS#]
+[#{SM}#]
+本次交费:[#CBJL_YJE#] 上次余额:[#CBJL_Yujiao#] 当前余额:[#CBJL_Jiecun#] 
+金额小写:￥[#CBJL_SJJFE#]元  金额小写:￥[#CBJL_SJJFE#]元
+收款单位:[#{SKDW}#]   收款人:[#CSR_NAME#]([#CBJL_Shoufeiyuan#])

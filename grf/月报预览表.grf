@@ -1,0 +1,690 @@
+Object Report
+	Version='5.8.0.2'
+	Title='Grid++Report'
+	Object Font
+		Name='宋体'
+		Size=90000,0
+		Weight=400
+		Charset=134
+	End
+	Object Printer
+		Oriention=Landscape
+	End
+	Object ImageList
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00E0FF00E6FF00E6FF00E6FF00E6FF00E0FF00
+BFFF00C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00060000060000060000060000060000
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00060000E6FF00E6FF00E6FF00E6FF00E6FF00
+060000E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00060000E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00060000BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF008EF00006000000000000000006005FFEFF0BFCFF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00E0FF00E6FF00E6FF00E6FF00E6FF00E0FF00
+BFFF00C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00E0FF002F00000600002F0000E0FF00
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF008EF00006000000000000000006005FFEFF0BFCFF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+		Image=894
+000001000100101000323637303168030000160000002800000010000000200000000100180000000000000300004746
+6C656D696E67000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+000000000000000000000000000000000000000000000000000000060000060000A7FF00A7FF00A7FF00A7FF008EF000
+060000060000000000000000000000000000000000000000060000C4FF00C4FF00BFFF00BFFF00BFFF00BFFF00BFFF00
+C4FF008EF000060000000000000000000000000000060000C4FF00C4FF00060000E6FF00E6FF00E6FF00E6FF00E0FF00
+060000C4FF008EF000060000000000000000000000060000C4FF00E6FF00E6FF00060000060000060000060000060000
+E0FF00BFFF00C4FF00060000000000000000060000C4FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E0FF00BFFF008EF00006000000000006000BFCFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00
+E6FF00E6FF00BFFF00A7FF0006000000000006005FFEFF00E6FF00E6FF00060000060000E6FF00E6FF00E6FF00060000
+060000E6FF00BFFF00A7FF0006000000000006005FFEFF0BFCFF00E6FF00E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00E6FF00BFFF00A7FF00060000000000060093FFFF0BFCFF00060000E6FF00060000E6FF00E6FF00E6FF00060000
+E6FF00060000BFFF008EF00006000000000000000006005FFEFF0BFCFF00060000E6FF00E6FF00E6FF00E6FF00E6FF00
+060000E6FF00C4FF00060000000000000000000000060093FFFF5FFEFF0BFCFF00060000E6FF00E6FF00E6FF00060000
+E6FF00C4FF008EF0000600000000000000000000000000000600CFFFFF93FFFF0BFCFF0BFCFF00E6FF00E6FF00E6FF00
+C4FF008EF0000600000000000000000000000000000000000000000600000600CFFFFF93FFFF5FFEFF5FFEFF00C4FF00
+060000060000000000000000000000000000000000000000000000000000000000060000060000060000060000060000
+0000000000000000000000000000FFFFFFFFFC1FFFFFF007FFFFE003FFFFC001FFFFC001FFFF8000FFFF8000FFFF8000
+FFFF8000FFFF8000FFFFC001FFFFC001FFFFE003FFFFF007FFFFFC1FFFFF
+	End
+	Object DetailGrid
+		Object Recordset
+			Items Field
+				Item
+					Name='编号'
+					DBFieldName='JGCode'
+				End
+				Item
+					Name='名称'
+					DBFieldName='JGName'
+				End
+				Item
+					Name='单价'
+					DBFieldName='Jg'
+				End
+				Item
+					Name='期初欠费气量'
+				End
+				Item
+					Name='期初欠费金额'
+				End
+				Item
+					Name='总抄表量'
+				End
+				Item
+					Name='总金额'
+				End
+				Item
+					Name='气量'
+				End
+				Item
+					Name='气费'
+				End
+				Item
+					Name='滞纳金'
+				End
+				Item
+					Name='结余'
+				End
+				Item
+					Name='实收'
+				End
+				Item
+					Name='欠收气量'
+				End
+				Item
+					Name='欠收气费'
+				End
+			End
+		End
+		Items Column
+			Item
+				Name='编号'
+				Width=1.4
+			End
+			Item
+				Name='名称'
+				Width=1.4
+			End
+			Item
+				Name='单价'
+				Width=1.2
+			End
+			Item
+				Name='期初欠费气量'
+				Width=2
+			End
+			Item
+				Name='期初欠费金额'
+				Width=2
+			End
+			Item
+				Name='总抄表量'
+				Width=1.8
+			End
+			Item
+				Name='总金额'
+				Width=2.1
+			End
+			Item
+				Name='气量'
+				Width=1.8
+			End
+			Item
+				Name='气费'
+				Width=2
+			End
+			Item
+				Name='滞纳金'
+				Width=1.5
+			End
+			Item
+				Name='结余'
+				Width=1.85
+			End
+			Item
+				Name='实收'
+				Width=1.85
+			End
+			Item
+				Name='欠收气量'
+				Width=1.89
+			End
+			Item
+				Name='欠收气费'
+				Width=1.9
+			End
+		End
+		Object ColumnContent
+			Height=0.608542
+			Items ColumnContentCell
+				Item
+					Column='编号'
+					TextAlign=MiddleCenter
+					DataField='编号'
+				End
+				Item
+					Column='名称'
+					TextAlign=MiddleCenter
+					DataField='名称'
+				End
+				Item
+					Column='单价'
+					TextAlign=MiddleCenter
+					DataField='单价'
+				End
+				Item
+					Column='期初欠费气量'
+					TextAlign=MiddleCenter
+					DataField='期初欠费气量'
+				End
+				Item
+					Column='期初欠费金额'
+					TextAlign=MiddleCenter
+					DataField='期初欠费金额'
+				End
+				Item
+					Column='总抄表量'
+					TextAlign=MiddleCenter
+					DataField='总抄表量'
+				End
+				Item
+					Column='总金额'
+					TextAlign=MiddleCenter
+					DataField='总金额'
+				End
+				Item
+					Column='气量'
+					TextAlign=MiddleCenter
+					DataField='气量'
+				End
+				Item
+					Column='气费'
+					TextAlign=MiddleCenter
+					DataField='气费'
+				End
+				Item
+					Column='滞纳金'
+					TextAlign=MiddleCenter
+					DataField='滞纳金'
+				End
+				Item
+					Column='结余'
+					TextAlign=MiddleCenter
+					DataField='结余'
+				End
+				Item
+					Column='实收'
+					TextAlign=MiddleCenter
+					DataField='实收'
+				End
+				Item
+					Column='欠收气量'
+					TextAlign=MiddleCenter
+					DataField='欠收气量'
+				End
+				Item
+					Column='欠收气费'
+					TextAlign=MiddleCenter
+					DataField='欠收气费'
+				End
+			End
+		End
+		Object ColumnTitle
+			BackColor=00ECEBD5
+			Height=2.16958
+			RepeatStyle=OnPage
+			Items ColumnTitleCell
+				Item
+					GroupTitle=T
+					Name='用气性质'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='编号'
+							TextAlign=MiddleCenter
+							Text='编号'
+						End
+						Item
+							GroupTitle=F
+							Column='名称'
+							TextAlign=MiddleCenter
+							Text='名称'
+						End
+						Item
+							GroupTitle=F
+							Column='单价'
+							TextAlign=MiddleCenter
+							Text='单价'
+						End
+					End
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleCenter
+					Text='用气性质'
+				End
+				Item
+					GroupTitle=T
+					Name='期初余额'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='期初欠费气量'
+							TextAlign=MiddleCenter
+							Text='期初欠费气量'
+						End
+						Item
+							GroupTitle=F
+							Column='期初欠费金额'
+							TextAlign=MiddleCenter
+							Text='期初欠费金额'
+						End
+					End
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleCenter
+					Text='期初余额'
+				End
+				Item
+					GroupTitle=T
+					Name='本月应收'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='总抄表量'
+							TextAlign=MiddleCenter
+							Text='总抄表量'
+						End
+						Item
+							GroupTitle=F
+							Column='总金额'
+							TextAlign=MiddleCenter
+							Text='总金额'
+						End
+					End
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleCenter
+					Text='本月应收'
+				End
+				Item
+					GroupTitle=T
+					Name='本月实收'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='气量'
+							TextAlign=MiddleCenter
+							Text='气量'
+						End
+						Item
+							GroupTitle=F
+							Column='气费'
+							TextAlign=MiddleCenter
+							Text='气费'
+						End
+						Item
+							GroupTitle=F
+							Column='滞纳金'
+							TextAlign=MiddleCenter
+							Text='滞纳金'
+						End
+						Item
+							GroupTitle=F
+							Column='结余'
+							TextAlign=MiddleCenter
+							Text='结余'
+						End
+						Item
+							GroupTitle=F
+							Column='实收'
+							TextAlign=MiddleCenter
+							Text='实收'
+						End
+					End
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleCenter
+					Text='本月实收'
+				End
+				Item
+					GroupTitle=T
+					Name='本月欠收'
+					Items ColumnTitleCell
+						Item
+							GroupTitle=F
+							Column='欠收气量'
+							TextAlign=MiddleCenter
+							Text='欠收气量'
+						End
+						Item
+							GroupTitle=F
+							Column='欠收气费'
+							TextAlign=MiddleCenter
+							Text='欠收气费'
+						End
+					End
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleCenter
+					Text='本月欠收'
+				End
+			End
+		End
+	End
+	Items Parameter
+		Item
+			Name='报表头'
+		End
+	End
+	Items Section
+		Item
+			Type=PageHeader
+			Height=1.00542
+			Items Control
+				Item
+					Type=Line
+					Name='Line1'
+					Top=0.79375
+					Width=26.5906
+					PenWidth=2
+				End
+				Item
+					Type=MemoBox
+					Name='MemoBox3'
+					Anchor=[Top|Right]
+					Left=14.7108
+					Top=0.211667
+					Width=4.60375
+					Height=0.47625
+					Object Font
+						Name='楷体'
+						Size=120000,0
+						Bold=T
+						Charset=134
+					End
+					Text='气费收费月报预览表'
+				End
+			End
+		End
+		Item
+			Type=ReportHeader
+			Name='ReportHeader1'
+			Height=2.40771
+			Items Control
+				Item
+					Type=MemoBox
+					Name='MemoBox4'
+					Left=0.211667
+					Top=1.40229
+					Width=14.3933
+					Height=0.608542
+					Object Font
+						Name='宋体'
+						Size=105000,0
+						Bold=T
+						Charset=134
+					End
+					CanGrow=T
+					Text='[#报表头#]'
+				End
+				Item
+					Type=MemoBox
+					Name='MemoBox5'
+					Left=7.99042
+					Top=0.396875
+					Width=8.78417
+					Height=0.608542
+					Object Font
+						Name='宋体'
+						Size=142500,0
+						Bold=T
+						Charset=134
+					End
+					CanGrow=T
+					TextAlign=MiddleCenter
+					Text='气费收费月报预览表'
+				End
+			End
+		End
+		Item
+			Type=ReportFooter
+			Name='ReportFooter1'
+			Height=1.79917
+			Items Control
+				Item
+					Type=SummaryBox
+					Name='Summary5'
+					Left=1.40229
+					Top=0.396875
+					Width=3.81
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='期初欠费气量'
+					Format='0'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox1'
+					Left=4.20688
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='期初欠费金额'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox2'
+					Left=6.00604
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='总抄表量'
+					Format='0'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox3'
+					Left=8.38729
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='总金额'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox4'
+					Left=9.78958
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='气量'
+					Format='0'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox5'
+					Left=12.0121
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='气费'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox6'
+					Left=13.8113
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='滞纳金'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox7'
+					Left=15.6104
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='结余'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox8'
+					Left=17.4096
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='实收'
+					Format='#,##0.00'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox9'
+					Left=19.2088
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='欠收气量'
+					Format='0'
+				End
+				Item
+					Type=SummaryBox
+					Name='SummaryBox10'
+					Left=21.1931
+					Top=0.396875
+					Width=3.20146
+					Height=0.582083
+					Object Font
+						Name='宋体'
+						Size=90000,0
+						Bold=T
+						Charset=134
+					End
+					TextAlign=MiddleRight
+					DataField='欠收气费'
+					Format='#,##0.00'
+				End
+			End
+		End
+	End
+End
