@@ -19,6 +19,7 @@ namespace PrinterAgent
 {
     public class Crypto
     {
+        public static string keyseed = "9527AA55";
         public static string decode(string encodedString, string key)
         {
             encodedString = encodedString.Replace('-', '+');
@@ -138,7 +139,7 @@ namespace PrinterAgent
                 
                 try
                 {
-                    xmlData = Crypto.decode(xmlData, ConfigurationManager.AppSettings["CryptoKeyseed"]);
+                    xmlData = Crypto.decode(xmlData, Crypto.keyseed);
                     // xmlData = "<xml><row><流水编号>54321</流水编号><开票日期>2017-4-12</开票日期><用户类型>帅锅</用户类型><用户名称>王碧林</用户名称><用户编码>12345</用户编码><地址>通美大厦</地址></row></xml>";
                     // xmlData = "<xml><master><XMSFJL_XMID>12345</XMSFJL_XMID></master><row><SFJLMX_ShoufeiXiangmu>a</SFJLMX_ShoufeiXiangmu></row><row><SFJLMX_ShoufeiXiangmu>b</SFJLMX_ShoufeiXiangmu></row></xml>";
                     Report.LoadDataFromXML(xmlData);
@@ -147,7 +148,7 @@ namespace PrinterAgent
                 {
                     MessageBox.Show(e.Message);
                     jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
-                    ctx.Response.StatusCode = 500;
+                    ctx.Response.StatusCode = 200;
                 }
 
                 try
@@ -169,14 +170,14 @@ namespace PrinterAgent
 
                         default:
                             jsonp = JsonpHandler.handle(ctx.Request, "{\"error\":\"Unknown operation\"}");
-                            ctx.Response.StatusCode = 404;
+                            ctx.Response.StatusCode = 200;
                             break;
                     }
                 }
                 catch (Exception e)
                 {
                     jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
-                    ctx.Response.StatusCode = 500;
+                    ctx.Response.StatusCode = 200;
                 }
                 
 
