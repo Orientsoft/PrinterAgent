@@ -81,8 +81,6 @@ namespace PrinterAgent
         private bool listenFlag;
         private HttpListener listener;
 
-        private EventLog logger = new EventLog("Application");
-
         public ListenerThread()
         {
             listenFlag = false;
@@ -119,6 +117,15 @@ namespace PrinterAgent
                 int.TryParse(ctx.Request.QueryString["offx"], out offsetX);
                 int.TryParse(ctx.Request.QueryString["offy"], out offsetY);
 
+                /*
+                if (ConfigurationManager.AppSettings["Version"] != version)
+                {
+                    jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"API version mismatch.\"}");
+                    ctx.Response.StatusCode = 200;
+                    response(ctx.Response, jsonp);
+                }
+                */
+
                 string templateUrl = ConfigurationManager.AppSettings["TemplateEndpoint"] +
                     ConfigurationManager.AppSettings["TemplatePath"] +
                     template + "-" + templateVersion +
@@ -127,28 +134,42 @@ namespace PrinterAgent
                 try
                 {
                     Report.Clear();
-                    Report.LoadFromURL(templateUrl);
+                    bool ret = Report.LoadFromURL(templateUrl);
                     // Report.LoadFromFile("D:\\project\\PrinterService\\grf\\IC卡购金额发票.grf");
                     // Report.LoadFromFile("D:\\project\\PrinterAgent\\romulan_grf\\GCSF3.grf");
+                    if (!ret)
+                    {
+                        jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"Load template failed.\"}");
+                        ctx.Response.StatusCode = 200;
+                        response(ctx.Response, jsonp);
+                    }
                 }
                 catch (Exception e)
                 {
                     jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
-                    ctx.Response.StatusCode = 500;
+                    ctx.Response.StatusCode = 200;
+                    response(ctx.Response, jsonp);
                 }
                 
                 try
                 {
                     xmlData = Crypto.decode(xmlData, Crypto.keyseed);
+                    // MessageBox.Show(xmlData);
                     // xmlData = "<xml><row><流水编号>54321</流水编号><开票日期>2017-4-12</开票日期><用户类型>帅锅</用户类型><用户名称>王碧林</用户名称><用户编码>12345</用户编码><地址>通美大厦</地址></row></xml>";
                     // xmlData = "<xml><master><XMSFJL_XMID>12345</XMSFJL_XMID></master><row><SFJLMX_ShoufeiXiangmu>a</SFJLMX_ShoufeiXiangmu></row><row><SFJLMX_ShoufeiXiangmu>b</SFJLMX_ShoufeiXiangmu></row></xml>";
-                    Report.LoadDataFromXML(xmlData);
+                    bool ret = Report.LoadDataFromXML(xmlData);
+                    if (!ret)
+                    {
+                        jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"Load data failed.\"}");
+                        ctx.Response.StatusCode = 200;
+                        response(ctx.Response, jsonp);
+                    }
                 }
                 catch (Exception e)
                 {
-                    MessageBox.Show(e.Message);
                     jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
                     ctx.Response.StatusCode = 200;
+                    response(ctx.Response, jsonp);
                 }
 
                 try
@@ -157,7 +178,7 @@ namespace PrinterAgent
                     switch (operation)
                     {
                         case "print":
-                            Report.Print(true);
+                            Report.Print(false);
                             jsonp = JsonpHandler.handle(ctx.Request, "{\"result\": \"OK\"}");
                             ctx.Response.StatusCode = 200;
                             break;
@@ -179,18 +200,8 @@ namespace PrinterAgent
                     jsonp = JsonpHandler.handle(ctx.Request, "{\"error\": \"" + e.Message + "\"}");
                     ctx.Response.StatusCode = 200;
                 }
-                
 
-                // write response        
-                using (StreamWriter writer = new StreamWriter(ctx.Response.OutputStream))
-                {
-                    if (jsonp != null)
-                        writer.Write(jsonp);
-
-                    writer.Close();
-                }
-
-                ctx.Response.Close();
+                response(ctx.Response, jsonp);
             } // while (listenFlag)
 
             listener.Stop();
@@ -199,6 +210,21 @@ namespace PrinterAgent
         public void stop()
         {
             listenFlag = false;
+        }
+
+        private void response(HttpListenerResponse response, string jsonp)
+        {
+            // write response        
+            using (StreamWriter writer = new StreamWriter(response.OutputStream))
+            {
+                if (jsonp != null)
+                    writer.Write(jsonp);
+
+                writer.Close();
+            }
+
+            // close connection
+            response.Close();
         }
     }
 
