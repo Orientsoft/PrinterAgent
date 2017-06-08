@@ -214,6 +214,7 @@ namespace PrinterAgent
 
         private void response(HttpListenerResponse response, string jsonp)
         {
+            response.AddHeader("Content-Security-Policy", "upgrade-insecure-requests");
             // write response        
             using (StreamWriter writer = new StreamWriter(response.OutputStream))
             {
